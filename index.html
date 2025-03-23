@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Magic the Gathering Health Tracker</title>
+</head>
+<body>
+    <div class ="container">
+        <h1>Magic: The Gathering Life Tracker</h1>
+
+        <div class="player">
+            <h2>Player 1</h2>
+            <div class="life-total" id="life1">40</div>
+            <div class ="buttons">
+            <button onclick="changeLife(1, 1)">+1</button>
+            <button onclick="changeLife(1, -1)">-1</button>
+            </div>    
+        </div>
+
+        <div class="player">
+            <h2>Player 2</h2>
+            <div class="life-total" id="life2">40</div>
+            <div class="buttons">
+            <button onclick="changeLife(2, 1)">+1</button>
+            <button onclick="changeLife(2, -1)">-1</button>
+            </div>        
+        </div>
+
+        <div class="player">
+            <h2>Player 3</h2>
+            <div class="life-total" id="life3">40</div>
+            <div class="buttons">
+            <button onclick="changeLife(3, 1)">+1</button>
+            <button onclick="changeLife(3, -1)">-1</button>
+            </div>
+        </div>
+
+        <div class="player">
+            <h2>Player 4</h2>
+            <div class="life-total" id="life4">40</div>
+            <div class="buttons">
+            <button onclick="changeLife(3, 1)">+1</button>
+            <button onclick="changeLife(3, -1)">-1</button>
+            </div>
+        </div>
+    </div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
