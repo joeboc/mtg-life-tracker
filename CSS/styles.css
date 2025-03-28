@@ -43,3 +43,19 @@ box-shadow: 0 0 10px #000;
 .buttons button:hover{
     background-color: #666;
 }
+
+#reset-button {
+    margin-top: 30px;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkslategrey;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#reset-button:hover {
+    background-color: teal;
+}
